@@ -1,7 +1,7 @@
 %define pname precis_i18n
 
 Name: python-%(echo %{pname} | tr 'A-Z' 'a-z')
-Version: 1.0
+Version: 1.0.1
 Release: 1%{?dist}
 Summary: Internationalized Usernames and Passwords
 Group: Development/Libraries
@@ -95,5 +95,8 @@ Python 3 version.
 
 
 %changelog
+* Tue Nov  5 2019 Philippe Kueck <projects@unixadm.org> - 1.0.1-1
+- new upstream version
+
 * Fri Mar  9 2018 Philippe Kueck <projects@unixadm.org> - 1.0-1
 - initial packaging
